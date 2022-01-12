@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drumkit</title>
+    <link rel="stylesheet" href="drumkit.css">
+    <link rel="shortcut icon" href="img/drums.jpeg" type="image/x-icon">
+</head>
+<body>
+    <section class="keyboard">
+        <ul class="key-list">
+            <li data-key="a" class="single-key">
+                <kbd class="letter">A</kbd>
+                <span class="sound">Clap</span>
+            </li>
+            <li data-key="s" class="single-key">
+                <kbd class="letter">S</kbd>
+                <span class="sound">Hihat</span>
+            </li>
+            <li data-key="d" class="single-key">
+                <kbd class="letter">D</kbd>
+                <span class="sound">Kick</span>
+            </li>
+            <li data-key="f" class="single-key">
+                <kbd class="letter">F</kbd>
+                <span class="sound">Openhat</span>
+            </li>
+            <li data-key="g" class="single-key">
+                <kbd class="letter">G</kbd>
+                <span class="sound">Boom</span>
+            </li>
+            <li data-key="h"class="single-key">
+                <kbd class="letter">H</kbd>
+                <span class="sound">Ride</span>
+            </li>
+            <li data-key="j" class="single-key">
+                <kbd class="letter">J</kbd>
+                <span class="sound">Snare</span>
+            </li>
+            <li data-key="k" class="single-key">
+                <kbd class="letter">K</kbd>
+                <span class="sound">Tom</span>
+            </li>
+            <li data-key="l" class="single-key">
+                <kbd class="letter">L</kbd>
+                <span class="sound">Tink</span>
+            </li>
+        </ul>
+    </section>
+
+    <audio data-key="a" src="sounds/clap.wav"></audio>
+    <audio data-key="s" src="sounds/hihat.wav"></audio>
+    <audio data-key="d" src="sounds/kick.wav"></audio>
+    <audio data-key="f" src="sounds/openhat.wav"></audio>
+    <audio data-key="g" src="sounds/boom.wav"></audio>
+    <audio data-key="h" src="sounds/ride.wav"></audio>
+    <audio data-key="j" src="sounds/snare.wav"></audio>
+    <audio data-key="k" src="sounds/tom.wav"></audio>
+    <audio data-key="l" src="sounds/tink.wav"></audio>
+
+    <script src="drumkit.js"></script>
+</body>
+</html>
